@@ -75,8 +75,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-<<<<<<< HEAD
-=======
 	"\/js\/min\/testLoader-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -88,7 +86,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
->>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 	"\/js\/testBouton.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -100,8 +97,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-<<<<<<< HEAD
-=======
 	"\/js\/testLoader.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -124,7 +119,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
->>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -235,8 +229,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/testLoader.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -246,7 +238,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 	"\/testsBoutons.html": {
 		"fileType": 8192,
 		"ignore": 0,
