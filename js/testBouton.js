@@ -49,7 +49,7 @@ annimateRemoveNumbers = function(_obect, _width, _duration, _i){
 };
 
 setWidth= function(_this, _settings){
-
+    _this.find('.rule').stop().fadeIn(200);
 
     _this.find('.rule.top > div').css({width:'100%'});
     _this.find('.rule.right > div').css({height:'100%'});
@@ -66,4 +66,6 @@ resetWidth= function(_this, _settings){
 
     annimateRemoveNumbers(_this.find('.rule.top > p'), _this.width(),_settings.animDuration , _this.width())
     annimateRemoveNumbers(_this.find('.rule.right > p'), _this.parent().height(),_settings.animDuration , _this.parent().height())
+
+    _this.find('.rule').stop().delay(300).fadeOut(200);
 }

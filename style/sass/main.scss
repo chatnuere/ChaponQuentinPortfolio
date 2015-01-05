@@ -1,4 +1,12 @@
 @import "compass/css3";
 @import "compass/reset";
 @import "variables";
+@import "fonts";
 @import "core";
+
+body{
+  background-color: $bgColor;
+  background-image: url("../../media/img/interface/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
