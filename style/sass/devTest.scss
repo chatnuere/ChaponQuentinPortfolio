@@ -111,7 +111,11 @@ main {
   .square {
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
     background-color: #333;
+=======
+    //background-color: #333;
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
     position: absolute;
     top: 50%;
     left: 50%;
@@ -129,7 +133,60 @@ main {
   left: 50%;
   margin-top: -100px;
   margin-left: -100px;
+<<<<<<< HEAD
   background-color: #000;
+=======
+  //background-color: #000;
+  z-index: 10;
+
+  h1{
+    opacity: 0;
+    @include transition(all 0.5s ease);
+    position: absolute;
+    z-index: 20;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'ADAM-CGPRO', sans-serif;
+    font-size: 80px;
+    white-space: nowrap;
+    left: -259px;
+    top: 47px ;
+
+    span{
+      display: block;
+      text-transform: none;
+      font-family: 'Georgia', serif;
+      font-size: 24px;
+    }
+
+    &:before, &:after{
+      content: '';
+      display: block;
+      @include border-radius(50%);
+      @include transform(rotateX(80deg));
+      position: absolute;
+    }
+    &:before{
+      width: 130%;
+      height: 300px;
+      background-color: rgba(#FFF, 0.08);
+      left: -15%;
+      @include filter(blur(80px));
+      bottom: -200px;
+
+    }
+
+    &:after{
+      width: 100%;
+      height: 100px;
+      background-color: rgba(#000, 0.7);
+      left: 0;
+      @include filter(blur(20px))
+
+    }
+  }
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 
   svg {
     position: absolute;
@@ -256,7 +313,15 @@ main {
 
 #shrapnel.exploded {
 
+<<<<<<< HEAD
   background-color: transparent;
+=======
+  //background-color: transparent;
+
+  h1{
+    opacity: 1;
+  }
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 
   #shrapnel_1 {
     top: -100px;
@@ -278,8 +343,13 @@ main {
   }
 
   #shrapnel_4 {
+<<<<<<< HEAD
     top: -200px;
     left: -480px;
+=======
+    top: 51px;
+    left: 0;
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
   }
   #shrapnel_5 {
     top: 28px;
