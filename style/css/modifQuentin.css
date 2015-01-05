@@ -137,11 +137,21 @@
     -webkit-transform: rotateY(-510deg);
     transform: rotateY(-510deg); }
   #shrapnel.exploded #shrapnel_4 {
-    top: 51px;
-    left: 0; }
+    top: 20px;
+    left: 175; 
+  -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
   #shrapnel.exploded #shrapnel_5 {
-    top: 28px;
-    left: 37px; }
+    top: 68px;
+    left: 25px;
+  -moz-transform: rotateY(-510deg);
+    -ms-transform: rotateY(-510deg);
+    -webkit-transform: rotateY(-510deg);
+    transform: rotateY(-510deg); }
+  }
   #shrapnel.exploded #shrapnel_6 {
     top: -100;
     left: -240px;
@@ -157,47 +167,101 @@
   #shrapnel.exploded #shrapnel_7 {
     top: 75px;
     left: 450px;
-  -moz-transform: rotateY(-110deg);
-    -ms-transform: rotateY(-110deg);
-    -webkit-transform: rotateY(-110deg);
-    transform: rotateY(-110deg);
-    -moz-transform: rotateZ(510deg);
-    -ms-transform: rotateZ(510deg);
-    -webkit-transform: rotateZ(510deg);
-    transform: rotateZ(510deg); }
+  -moz-transform: rotateY(-510deg);
+    -ms-transform: rotateY(-510deg);
+    -webkit-transform: rotateY(-510deg);
+    transform: rotateY(-510deg); }
   #shrapnel.exploded #shrapnel_8 {
-    top: 0;
-    left: 152px; }
+    
+    left: -152px; 
+  top: 180px;
+    
+    -moz-transform: rotateY(-310deg);
+    -ms-transform: rotateY(-310deg);
+    -webkit-transform: rotateY(-310deg);
+    transform: rotateY(-310deg);
+  }
   #shrapnel.exploded #shrapnel_9 {
-    top: 0;
-    left: 123px; }
+    top: 137px;
+    left: -244px; 
+  -moz-transform: rotateY(-410deg);
+    -ms-transform: rotateY(-410deg);
+    -webkit-transform: rotateY(-410deg);
+    transform: rotateY(-410deg);
+  }
   #shrapnel.exploded #shrapnel_10 {
-    top: 38px;
-    left: 106px; }
+    top: -40px;
+    left: 200px;
+  -moz-transform: rotateY(-710deg);
+    -ms-transform: rotateY(-710deg);
+    -webkit-transform: rotateY(-710deg);
+    transform: rotateY(-710deg);
+  
+  }
   #shrapnel.exploded #shrapnel_11 {
-    top: 57px;
-    left: 48px; }
+    top: -70px;
+    left: 75px;
+  -moz-transform: rotateY(-710deg);
+    -ms-transform: rotateY(-710deg);
+    -webkit-transform: rotateY(-710deg);
+    transform: rotateY(-710deg);
+  }
   #shrapnel.exploded #shrapnel_12 {
-    left: 0;
-    top: 75px; }
+    left: 347px;
+    top: 127px; 
+  -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -webkit-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
   #shrapnel.exploded #shrapnel_13 {
-    top: 56px;
-    left: 86px; }
+    top: 30px;
+    left: -86px;
+  -moz-transform: rotateY(450deg);
+    -ms-transform: rotateY(450deg);
+    -webkit-transform: rotateY(450deg);
+    transform: rotateY(450deg);
+  }
   #shrapnel.exploded #shrapnel_14 {
-    top: 56px;
-    left: 107px; }
+    top: 107px;
+    left: 204px;
+  -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
   #shrapnel.exploded #shrapnel_15 {
-    top: 46px;
-    left: 107px; }
+    top: 210px;
+    left: -20px; 
+  -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
   #shrapnel.exploded #shrapnel_16 {
-    top: 46px;
-    left: 142px; }
+    top: -112px;
+    left: -116px;
+  -moz-transform: rotateY(500deg);
+    -ms-transform: rotateY(500deg);
+    -webkit-transform: rotateY(500deg);
+    transform: rotateY(200deg);
+  }
 #shrapnel.exploded #shrapnel_17 {
-  top: 83px;
-  left: 129px; }
+  top: -12px;
+  left: 330px;
+-moz-transform: rotateY(470deg);
+    -ms-transform: rotateY(470deg);
+    -webkit-transform: rotateY(470deg);
+    transform: rotateY(470deg);
+}
 #shrapnel.exploded #shrapnel_18 {
-  left: 0;
-  top: 105px; }
+  left: -97;
+  top: 22px; 
+-moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
 #shrapnel.exploded #shrapnel_19 {
   left: 54px;
   top: 117px; }

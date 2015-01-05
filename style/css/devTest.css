@@ -326,10 +326,10 @@ nav ul {
   #shrapnel.exploded #shrapnel_7 {
     top: 75px;
     left: 450px;
-  -moz-transform: rotateY(-110deg);
-    -ms-transform: rotateY(-110deg);
-    -webkit-transform: rotateY(-110deg);
-    transform: rotateY(-110deg);
+  -moz-transform: rotateX(-910deg);
+    -ms-transform: rotateX(-910deg);
+    -webkit-transform: rotateX(-910deg);
+    transform: rotateY(-910deg); }
     -moz-transform: rotateZ(510deg);
     -ms-transform: rotateZ(510deg);
     -webkit-transform: rotateZ(510deg);
