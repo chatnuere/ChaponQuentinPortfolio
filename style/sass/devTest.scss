@@ -111,7 +111,11 @@ main {
   .square {
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
+    background-color: #333;
+=======
     //background-color: #333;
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
     position: absolute;
     top: 50%;
     left: 50%;
@@ -129,6 +133,9 @@ main {
   left: 50%;
   margin-top: -100px;
   margin-left: -100px;
+<<<<<<< HEAD
+  background-color: #000;
+=======
   //background-color: #000;
   z-index: 10;
 
@@ -179,6 +186,7 @@ main {
 
     }
   }
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 
   svg {
     position: absolute;
@@ -305,11 +313,15 @@ main {
 
 #shrapnel.exploded {
 
+<<<<<<< HEAD
+  background-color: transparent;
+=======
   //background-color: transparent;
 
   h1{
     opacity: 1;
   }
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
 
   #shrapnel_1 {
     top: -100px;
@@ -331,8 +343,13 @@ main {
   }
 
   #shrapnel_4 {
+<<<<<<< HEAD
+    top: -200px;
+    left: -480px;
+=======
     top: 51px;
     left: 0;
+>>>>>>> b7ec60b5d6e32acef456f4fd830443d33e53b238
   }
   #shrapnel_5 {
     top: 28px;
