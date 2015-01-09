@@ -11,7 +11,7 @@ resetSquare = function(){
     $('.button').html('Eplode!!!!');
     $('#shrapnel').toggleClass('exploded');
     $('.square').toggleClass('exploded')
-    timeout = setTimeout(function(){ $('#shrapnel').css({'background-color': '#000'}); }, 1000)
+    timeout = setTimeout(function(){ $('#shrapnel').css({'background-color': '#000'}); }, 500)
 
 };
 
