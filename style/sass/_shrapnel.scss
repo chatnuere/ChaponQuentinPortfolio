@@ -1,0 +1,295 @@
+#shrapnel {
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  display: none;
+
+  h1 {
+    display: none;
+    @include transition(all 0.5s ease);
+    position: absolute;
+    z-index: 20;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'ADAM-CGPRO', sans-serif;
+    font-size: 80px;
+    white-space: nowrap;
+    left: -259px;
+    top: 47px;
+
+    span {
+      display: block;
+      text-transform: none;
+      font-family: 'Georgia', serif;
+      font-size: 24px;
+    }
+
+  }
+
+  svg {
+    position: absolute;
+
+    position: absolute;
+    -webkit-transition: all 500ms cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    -moz-transition: all 500ms cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    -o-transition: all 500ms cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    transition: all 500ms cubic-bezier(0.515, 0.005, 1.000, 0.425); /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    -moz-transition-timing-function: cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    -o-transition-timing-function: cubic-bezier(0.515, 0.005, 1.000, 0.425);
+    transition-timing-function: cubic-bezier(0.515, 0.005, 1.000, 0.425); /* custom */
+  }
+
+  #shrapnel_1 {
+    top: 0;
+    left: 0;
+  }
+
+  #shrapnel_2 {
+    top: 0;
+    left: 1px;
+  }
+
+  #shrapnel_3 {
+    top: 29px;
+    left: 0px;
+  }
+
+  #shrapnel_4 {
+    top: 51px;
+    left: 0;
+  }
+  #shrapnel_5 {
+    top: 28px;
+    left: 37px;
+  }
+  #shrapnel_6 {
+    top: 0;
+    left: 38px;
+  }
+  #shrapnel_7 {
+    top: 0;
+    left: 92px;
+  }
+  #shrapnel_8 {
+    top: 0;
+    left: 152px;
+  }
+  #shrapnel_9 {
+    top: 0;
+    left: 123px;
+  }
+  #shrapnel_10 {
+    top: 38px;
+    left: 106px;
+  }
+  #shrapnel_11 {
+    top: 57px;
+    left: 48px;
+  }
+  #shrapnel_12 {
+    left: 0;
+    top: 75px;
+  }
+  #shrapnel_13 {
+    top: 56px;
+    left: 86px;
+  }
+  #shrapnel_14 {
+    top: 56px;
+    left: 107px;
+  }
+  #shrapnel_15 {
+    top: 46px;
+    left: 107px;
+  }
+  #shrapnel_16 {
+    top: 46px;
+    left: 142px;
+  }
+  #shrapnel_17 {
+    top: 83px;
+    left: 129px;
+  }
+  #shrapnel_18 {
+    left: 0;
+    top: 105px;
+  }
+  #shrapnel_19 {
+    left: 54px;
+    top: 117px;
+  }
+  #shrapnel_20 {
+    left: 0;
+    top: 105px;
+  }
+  #shrapnel_21 {
+    left: 0;
+    top: 159px;
+  }
+  #shrapnel_22 {
+    left: 1px;
+    top: 158px;
+  }
+  #shrapnel_23 {
+    left: 54px;
+    top: 134px;
+  }
+  #shrapnel_24 {
+    left: 96px;
+    top: 134px;
+  }
+  #shrapnel_25 {
+    bottom: 0;
+    right: 0;
+  }
+  #shrapnel_26 {
+    left: 128px;
+    top: 118px;
+  }
+}
+
+#shrapnel.exploded {
+
+  svg {
+    -webkit-transition: all 1200ms cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    -moz-transition: all 1200ms cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    -o-transition: all 1200ms cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    transition: all 1200ms cubic-bezier(0.000, 0.305, 0.000, 0.995); /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    -moz-transition-timing-function: cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    -o-transition-timing-function: cubic-bezier(0.000, 0.305, 0.000, 0.995);
+    transition-timing-function: cubic-bezier(0.000, 0.305, 0.000, 0.995); /* custom */
+  }
+
+  #shrapnel_1 {
+    top: -100px;
+    left: -300px;
+    @include transform(rotate(360deg));
+  }
+
+  #shrapnel_2 {
+    top: -122px;
+    left: 1px;
+    @include transform(rotateY(-510deg));
+    @include transform(rotateZ(510deg));
+  }
+
+  #shrapnel_3 {
+    top: 0px;
+    left: -350px;
+    @include transform(rotateY(-510deg));
+  }
+
+  #shrapnel_4 {
+    top: 20px;
+    left: 175px;
+    @include transform(rotateY(360deg));
+  }
+  #shrapnel_5 {
+    top: 68px;
+    left: 25px;
+    @include transform(rotateY(-510deg));
+  }
+  #shrapnel_6 {
+    top: -100;
+    left: -240px;
+    @include transform(rotateY(-45deg));
+    @include transform(rotateX(360deg));
+  }
+  #shrapnel_7 {
+    top: 75;
+    left: 450px;
+    @include transform(rotateY(-510deg));
+  }
+  #shrapnel_8 {
+    top: 180;
+    left: -152px;
+    @include transform(rotateY(-310deg));
+  }
+  #shrapnel_9 {
+    top: 137;
+    left: -244px;
+    @include transform(rotateY(-410deg));
+  }
+  #shrapnel_10 {
+    top: -40px;
+    left: 200px;
+    @include transform(rotateY(-710deg));
+  }
+  #shrapnel_11 {
+    top: -70px;
+    left: 75px;
+    @include transform(rotateY(-710deg));
+  }
+  #shrapnel_12 {
+    left: 347px;
+    top: 127px;
+    @include transform(rotateY(-360deg));
+  }
+  #shrapnel_13 {
+    top: 30px;
+    left: -86px;
+    @include transform(rotateY(450deg));
+  }
+  #shrapnel_14 {
+    top: 107px;
+    left: 204px;
+    @include transform(rotateY(360deg));
+  }
+  #shrapnel_15 {
+    top: 210px;
+    left: -20px;
+    @include transform(rotateY(360deg));
+  }
+  #shrapnel_16 {
+    top: -112px;
+    left: -116px;
+    @include transform(rotateY(500deg));
+  }
+  #shrapnel_17 {
+    top: -12px;
+    left: 330px;
+    @include transform(rotateY(360deg));
+  }
+  #shrapnel_18 {
+    left: -97pc;
+    top: 22px;
+    @include transform(rotateY(470deg));
+  }
+  #shrapnel_19 {
+    left: 54px;
+    top: 117px;
+  }
+  #shrapnel_20 {
+    left: 0;
+    top: 105px;
+  }
+  #shrapnel_21 {
+    left: 0;
+    top: 159px;
+  }
+  #shrapnel_22 {
+    left: 1px;
+    top: 158px;
+  }
+  #shrapnel_23 {
+    left: 54px;
+    top: 134px;
+  }
+  #shrapnel_24 {
+    left: 96px;
+    top: 134px;
+  }
+  #shrapnel_25 {
+    bottom: 0;
+    right: 0;
+  }
+  #shrapnel_26 {
+    left: 128px;
+    top: 118px;
+  }
+}

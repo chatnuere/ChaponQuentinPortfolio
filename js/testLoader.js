@@ -4,7 +4,17 @@
 var timeout
 initLoader = function(){
 
+    launchRuleBottom()
+    $('.loadbar').delay(500).animate({height: "200px"}, 3000)
+
+
+
 };
+
+launchRuleBottom = function(){
+    $('.rule.bottom > div').css({width:'100%'});
+    annimatedRules( $('.rule.bottom  > p'),  $('.loadbar').parent().width(), 800 , 0 , 2, 'px')
+}
 
 resetSquare = function(){
     $('#shrapnel h1').fadeOut(200)
@@ -40,3 +50,25 @@ $('.menuButton').on('click', function(){
 
 
 });
+
+$('.loadbar').on('reseize', function(){
+
+    $('.rule.right  > p').html(($(this).width()/2)+'%')
+    $('.rule.right  > div').css( "width", $(this).width() );
+
+});
+
+annimatedRules = function(_obect, _width, _duration, _i , _iteration , _legend){
+
+    if (_i < _width) {
+
+        setTimeout(function(){
+
+            _obect.html((_i+_iteration)+_legend);
+            annimatedRules(_obect, _width, _duration,_i+2, _iteration , _legend);
+            console.log(_width)
+        },_duration/_width);
+    }
+
+
+};

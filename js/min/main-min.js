@@ -1,1 +1,1 @@
-$(document).ready(function(){initHoverButtons()});
+var oSquare;$(document).ready(function(){var e={oObject:$("#square"),oShrapnel:$("#shrapnel"),sCurrentState:"home",iloadingtime:3e3,loaderSettings:{delayBeforeLaunch:1500,loadingTime:3e3}};oSquare=new Square(e)}),$("#menu a").on("click",function(){$(this).toggleClass("rotated"),$("#menu").toggleClass("expanded"),$("main").toggleClass("expanded"),setTimeout(function(){oSquare.resetSquare(200,500)},1e3)});

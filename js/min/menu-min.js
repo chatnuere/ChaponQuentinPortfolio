@@ -1,0 +1,1 @@
+$("#menuBtn").on("click",function(){$(this).toggleClass("rotated"),$("#menu").toggleClass("expanded"),$("main").toggleClass("expanded")});

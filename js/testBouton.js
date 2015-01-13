@@ -27,11 +27,13 @@ annimateAddNumbers = function(_obect, _width, _duration, _i){
 
         setTimeout(function(){
 
-            _obect.html(_i+'px');
-            annimateAddNumbers(_obect, _width, _duration,_i+1);
-
+            _obect.html((_i+2)+'px');
+            annimateAddNumbers(_obect, _width, _duration,_i+2);
+            console.log(_width)
         },_duration/_width);
     }
+
+
 };
 
 
@@ -55,7 +57,7 @@ setWidth= function(_this, _settings){
     _this.find('.rule.right > div').css({height:'100%'});
 
     annimateAddNumbers(_this.find('.rule.top > p'), _this.width(),_settings.animDuration , 0)
-    annimateAddNumbers(_this.find('.rule.right > p'), _this.parent().height(),_settings.animDuration , 0)
+    annimateAddNumbers(_this.find('.rule.right > p'), _this.height(),_settings.animDuration , 0)
 }
 
 resetWidth= function(_this, _settings){
@@ -65,7 +67,7 @@ resetWidth= function(_this, _settings){
     _this.find('.rule.right > div').css({height:'0px'});
 
     annimateRemoveNumbers(_this.find('.rule.top > p'), _this.width(),_settings.animDuration , _this.width())
-    annimateRemoveNumbers(_this.find('.rule.right > p'), _this.parent().height(),_settings.animDuration , _this.parent().height())
+    annimateRemoveNumbers(_this.find('.rule.right > p'), _this.height(),_settings.animDuration , _this.height())
 
     _this.find('.rule').stop().delay(300).fadeOut(200);
 }
