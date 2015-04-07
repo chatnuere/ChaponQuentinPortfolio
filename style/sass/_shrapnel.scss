@@ -1,3 +1,45 @@
+#glitch{
+  position: relative;
+  .line{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 50%;
+    opacity: 0.5;
+    width: 102%;
+    height: 1px;
+    background-color: #FFF;
+    left: 50%;
+    @include transform(translateX(-50%));
+    mix-blend-mode:difference;
+
+  }
+  span{
+    display: inline-block;
+    left: 0;
+    top: 0;
+    content: 'QUENTIN CHAPON';
+    mix-blend-mode: screen ;
+  }
+  .red{
+    color: rgba(255, 0, 0, 1);
+
+  }
+  .green{
+    color: rgba(0,255,0, 1);
+    position: absolute;
+    z-index: -1;
+    left: -0.5%;
+  }
+  .blue{
+    color : rgba(0,0,255, 1);
+    position: absolute;
+    z-index: -2;
+    left: 0.5%;
+
+  }
+}
+
 #shrapnel {
   width: 200px;
   height: 200px;
@@ -18,7 +60,7 @@
     left: -259px;
     top: 47px;
 
-    span {
+    >span {
       display: block;
       text-transform: none;
       font-family: 'Georgia', serif;

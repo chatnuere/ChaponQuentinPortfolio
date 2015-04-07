@@ -55,6 +55,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url("../../media/fonts/ADAM-CGPRO/ADAM-CGPRO.eot?#iefix") format("embedded-opentype"), url("../../media/fonts/ADAM-CGPRO/ADAM-CGPRO.otf") format("opentype"), url("../../media/fonts/ADAM-CGPRO/ADAM-CGPRO.woff") format("woff"), url("../../media/fonts/ADAM-CGPRO/ADAM-CGPRO.ttf") format("truetype"), url("../../media/fonts/ADAM-CGPRO/ADAM-CGPRO.svg#ADAM.CGPRO") format("svg");
   font-weight: normal;
   font-style: normal; }
+#glitch {
+  position: relative; }
+  #glitch .line {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 50%;
+    opacity: 0.5;
+    width: 102%;
+    height: 1px;
+    background-color: #FFF;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    mix-blend-mode: difference; }
+  #glitch span {
+    display: inline-block;
+    left: 0;
+    top: 0;
+    content: 'QUENTIN CHAPON';
+    mix-blend-mode: screen; }
+  #glitch .red {
+    color: red; }
+  #glitch .green {
+    color: lime;
+    position: absolute;
+    z-index: -1;
+    left: -0.5%; }
+  #glitch .blue {
+    color: blue;
+    position: absolute;
+    z-index: -2;
+    left: 0.5%; }
+
 #shrapnel {
   width: 200px;
   height: 200px;
@@ -76,7 +112,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     white-space: nowrap;
     left: -259px;
     top: 47px; }
-    #shrapnel h1 span {
+    #shrapnel h1 > span {
       display: block;
       text-transform: none;
       font-family: 'Georgia', serif;

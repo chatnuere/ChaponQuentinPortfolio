@@ -15,6 +15,8 @@ $( document ).ready(function() {
     }
     oSquare = new Square(aArray);
 
+    oGlitch = new Glitch();
+
 });
 
 
@@ -27,6 +29,7 @@ $('#menu a').on('click', function(){
     setTimeout(function(){
 
         oSquare.resetSquare(200,500);
+
 
     } , 1000);
 
