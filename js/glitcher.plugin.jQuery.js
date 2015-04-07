@@ -75,11 +75,25 @@ Glitch.prototype.startGlitch = function(){
     var self = this;
     var i = 0
     this.timeout = setInterval(function(){
-        self.oObject.find('.green').css({left: ((Math.random()) - 0.5 )+'%'})
+        self.oObject.find('.red').css({left: ((Math.random()) - 0.5 )+'%'})
         self.oObject.find('.blue').css({left: ((Math.random()) - 0.5 )+'%'})
         self.oObject.find('.line').css({display: 'none'})
         if(i%(self.iFps/5) == 0) {
             self.oObject.find('.line').css({top: Math.floor((Math.random() * 70) + 1) + '%', display: 'block'})
+        }
+        if(i%(Math.floor(self.iFps/ (Math.random()* 2))) == 0) {
+            self.oObject.find('.red').css({left: ((Math.random()*10) - 5  )+'%'})
+            self.oObject.find('.blue').css({left: ((Math.random()* 8) -4)+'%'})
+            self.oObject.find('.green').css({left: ((Math.random()* 8) -4)+'%'})
+        }
+        if(i%(Math.floor(self.iFps/ (Math.random()* 0.5))) == 0) {
+            self.oObject.find('.red').css({left: ((Math.random()*10) - 5  )+'%'})
+        }
+        if(i%(Math.floor(self.iFps/ (Math.random()* 0.5))) == 0) {
+            self.oObject.find('.blue').css({left: ((Math.random()* 8) -4)+'%'})
+        }
+        if(i%(Math.floor(self.iFps/ (Math.random()* 0.5))) == 0) {
+            self.oObject.find('.green').css({left: ((Math.random()* 8) -4)+'%'})
         }
 
         i++;

@@ -21,12 +21,12 @@
     content: 'QUENTIN CHAPON';
     mix-blend-mode: screen ;
   }
-  .red{
-    color: rgba(255, 0, 0, 1);
+  .green{
+    color: rgba(0, 255, 0, 1);
 
   }
-  .green{
-    color: rgba(0,255,0, 1);
+  .red{
+    color: rgba(255,0,0, 1);
     position: absolute;
     z-index: -1;
     left: -0.5%;
