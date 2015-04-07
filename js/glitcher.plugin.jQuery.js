@@ -55,8 +55,6 @@ Glitch.prototype.init = function(){
     this.fillContent();
     this.startGlitch();
 
-
-
 };
 
 
@@ -78,6 +76,10 @@ Glitch.prototype.startGlitch = function(){
         self.oObject.find('.red').css({left: ((Math.random()) - 0.5 )+'%'})
         self.oObject.find('.blue').css({left: ((Math.random()) - 0.5 )+'%'})
         self.oObject.find('.line').css({display: 'none'})
+
+
+
+
         if(i%(self.iFps/5) == 0) {
             self.oObject.find('.line').css({top: Math.floor((Math.random() * 70) + 1) + '%', display: 'block'})
         }
@@ -85,6 +87,11 @@ Glitch.prototype.startGlitch = function(){
             self.oObject.find('.red').css({left: ((Math.random()*10) - 5  )+'%'})
             self.oObject.find('.blue').css({left: ((Math.random()* 8) -4)+'%'})
             self.oObject.find('.green').css({left: ((Math.random()* 8) -4)+'%'})
+            self.oObject.css({opacity: ((70 + Math.floor(Math.random()*30))/100)+''});
+
+        }
+        if(i%(Math.floor(self.iFps/ 4)) == 0){
+            self.oObject.css({opacity: ((90 + Math.floor(Math.random()*10))/100)+''});
         }
         if(i%(Math.floor(self.iFps/ (Math.random()* 0.5))) == 0) {
             self.oObject.find('.red').css({left: ((Math.random()*10) - 5  )+'%'})
@@ -98,4 +105,11 @@ Glitch.prototype.startGlitch = function(){
 
         i++;
     }, 1000/self.iFps);
+};
+
+/**
+ * initialisation du square
+ */
+Glitch.prototype.updateContent = function(newContent){
+    this.oObject.find('span').html(newContent)
 };

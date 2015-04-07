@@ -1,5 +1,6 @@
 #glitch{
   position: relative;
+  display: inline-block;
   .line{
     position: absolute;
     z-index: 2;
@@ -57,7 +58,8 @@
     font-family: 'ADAM-CGPRO', sans-serif;
     font-size: 80px;
     white-space: nowrap;
-    left: -259px;
+    left: 50%;
+    @include transform(translateX(-50%));
     top: 47px;
 
     >span {

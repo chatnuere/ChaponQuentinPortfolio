@@ -56,7 +56,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal; }
 #glitch {
-  position: relative; }
+  position: relative;
+  display: inline-block; }
   #glitch .line {
     position: absolute;
     z-index: 2;
@@ -110,7 +111,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-family: 'ADAM-CGPRO', sans-serif;
     font-size: 80px;
     white-space: nowrap;
-    left: -259px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     top: 47px; }
     #shrapnel h1 > span {
       display: block;
